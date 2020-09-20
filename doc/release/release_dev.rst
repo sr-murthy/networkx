@@ -17,6 +17,7 @@ Highlights
 This release is the result of X of work with over X pull requests by
 X contributors. Highlights include:
 
+- NumPy, SciPy, Matplotlib, and pandas are now default requirements.
 
 Improvements
 ------------
@@ -25,10 +26,11 @@ Improvements
 API Changes
 -----------
 
+- [`#4190 <https://github.com/networkx/networkx/pull/4190>`_]
+  Removed ``tracemin_chol``.  Use ``tracemin_lu`` instead.
 
 Deprecations
 ------------
-
 
 Contributors to this release
 ----------------------------
